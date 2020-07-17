@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="calc.css">
+
+</head>
+
+<body>
+    <div class=box>
+
+        <form name="calc">
+            <table>
+                <div class="row">
+                    <div><input type=text id="display2" name=result2></div>
+                    <div><input type=text id="display" name=result placeholder="0"></div>
+                </div>
+
+
+                <tr>
+                    <td><input type="button" value="sin" onclick="sin();number2(value)"></td>
+                    <td><input type="button" value="cos" onclick="cos();number2(value)"></td>
+                    <td><input type="button" value="tan" onclick="tan();number2(value)"></td>
+                    <td><input type="button" value="AC" onclick="clearing(value);clearing2(value)"></td>
+                </tr>
+
+
+                <tr>
+                    <td><input type="button" value="x&#178" onclick="square(); number2(value)"></td>
+                    <td><input type="button" value="x&#179" onclick="cube();number2(value)"> </td>
+                    <td><input type="button" value="&radic;" onclick="sqrt();number2(value)"> </td>
+                    <td><input type="button" value="del" onclick="del();del2()"> </td>
+                </tr>
+
+                <tr>
+                    <td><input type="button" value="7" onclick="number(value)"> </td>
+                    <td><input type="button" value="8" onclick="number(value)"> </td>
+                    <td><input type="button" value="9" onclick="number(value)"> </td>
+                    <td><input type="button" value="/" onclick="number(value)"> </td>
+
+                    <tr>
+                        <td><input type="button" value="4" onclick="number(value)"> </td>
+                        <td><input type="button" value="5" onclick="number(value)"> </td>
+                        <td><input type="button" value="6" onclick="number(value)"> </td>
+                        <td><input type="button" value="*" onclick="number(value)"> </td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="1" onclick="number(value)"> </td>
+                        <td><input type="button" value="2" onclick="number(value)"> </td>
+                        <td><input type="button" value="3" onclick="number(value)"> </td>
+                        <td><input type="button" value="-" onclick="number(value)"> </td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="0" onclick="number(value)"> </td>
+                        <td><input type="button" value="." onclick="number(value)"> </td>
+                        <td><input type="button" value="=" onclick="equal()"></td>
+                        <td><input type="button" value="+" onclick="number(value);number2(value)"></td>
+                    </tr>
+
+                    </tabel>
+        </form>
+        <script src="secondCalc.js"></script>
+    </div>
+</body>
+
+
+</html>
